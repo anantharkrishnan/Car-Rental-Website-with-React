@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 911px) {
+  .custom-md\\:hidden {
+    display: none !important;
+  }
+
+  .custom-md\\:flex {
+    display: flex !important;
+  }
+}
+
+
