@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X, Search } from 'lucide-react';
+import LogoImage from "../assets/images/logo-car-rent.png";
+
 
 function NavBar({ searchTerm, setSearchTerm, loggedInUser, setLoggedInUser }) {
   const [isOpen, setIsOpen] = useState(false);
@@ -36,7 +38,7 @@ function NavBar({ searchTerm, setSearchTerm, loggedInUser, setLoggedInUser }) {
       <div className="max-w-6xl mx-auto px-4 flex items-center justify-between py-4">
         <img
           className="h-12 w-12 rounded-full me-4"
-          src="src/assets/images/logo car rent.png"
+          src={LogoImage}
           alt="Logo"
         />
 <div className="text-white text-xl font-bold whitespace-nowrap">

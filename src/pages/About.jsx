@@ -1,10 +1,12 @@
+import AboutImg from "../assets/images/about-photo.jpeg"
+
 function About() {
     return (
         <div className="bg-gray-800">
         <div className="pt-20 px-4 max-w-5xl mx-auto text-center bg-gray-300">
             <img 
                 className="w-full h-[600px] object-cover rounded-2xl shadow-lg mb-10" 
-                src="/src/assets/images/about photo.jpeg" 
+                src={AboutImg} 
                 alt="About AK Car Rents" 
             />
             
