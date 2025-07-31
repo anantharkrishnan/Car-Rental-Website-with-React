@@ -24,7 +24,7 @@ import BMW5Series from "../assets/images/bmw-5-series.jpeg";
 import AudiQ5 from "../assets/images/audi-q5.jpeg";
 import BenzCClass from "../assets/images/benz-c-class.jpeg";
 import JaguarFPace from "../assets/images/jaguar-f-pace.jpeg";
-import LexusRx from "../assets/images/lexus-rx.jpeg";
+import LexusRx from "../assets/images/Lexus-RX.jpeg";
 import PorsheMacan from "../assets/images/porshe-macan.jpeg";
 import VolvoXC90 from "../assets/images/volvo-xc90.jpeg";
 import TeslaModelX from "../assets/images/tesla-model-x.jpeg";
